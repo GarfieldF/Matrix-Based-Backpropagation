@@ -67,7 +67,7 @@ class Network(object):
         # feedforward
         activation = x
         activations = [x] # list to store all the activation matrices, layer by layer
-        zs = [] # list to store all the weighted input matrices, layer by layer
+        zs = [] # list to store all the "sum of weighted inputs z" matrices, layer by layer
         i=0
         for b, w in zip(self.biases, self.weights):
             w = np.insert(w, 0, b.transpose(), axis=1) #insert the vector of biases on the first column of the weight matrix
