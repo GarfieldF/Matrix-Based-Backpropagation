@@ -2,6 +2,7 @@
 This repository contains the modified version of Michael Nielsen's code on his Book (http://neuralnetworksanddeeplearning.com/chap1.html#implementing_our_network_to_classify_digits).
 
 This version implementes the matrix based approach to backpropagation 
+Explanation here : https://medium.com/@hindsellouk13/matrix-based-back-propagation-fe143ce2b2df
 ___________________________________________________________________________
 License
 MIT License
